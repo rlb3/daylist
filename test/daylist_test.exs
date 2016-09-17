@@ -18,7 +18,6 @@ defmodule DaylistTest do
     assert Daylist.run({:wed, :fri}) == [:wed, :thurs, :fri]
   end
 
-
   test ":sat to :sun" do
     assert Daylist.run({:sat, :sun}) == [:sat, :sun]
   end
